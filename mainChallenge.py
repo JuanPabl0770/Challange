@@ -24,7 +24,7 @@ def mostFreqentNgram(text,N):
     ngrams = calculate_Ngrams(text,N)
     ngram_reps = []
     cantMostFrequent = 0;
-    posMostFrequent = -1;
+    posMostFrequent = 0;
 
     for i in range (len(ngrams)):
         for j in ngram_reps:
