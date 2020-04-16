@@ -20,7 +20,7 @@ def calculate_Ngrams(text, N):
 
 # end def
 
-def mostFreqentNgram(text,N):
+def mostFrequentNgram(text,N):
     ngrams = calculate_Ngrams(text,N)
     ngram_reps = []
     cantMostFrequent = 0;
@@ -41,6 +41,9 @@ def mostFreqentNgram(text,N):
 #end def
 
 word = "to be or not to be"
+slang = "thank you, for the chance"
 print(calculate_Ngrams(word,2))
-print(mostFreqentNgram(word,2))
+print(mostFrequentNgram(word,2))
+print(calculate_Ngrams(slang,2))
+print(mostFrequentNgram(slang,2))
 
