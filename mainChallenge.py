@@ -37,8 +37,6 @@ def mostFreqentNgram(text,N):
         #endfor
         ngram_reps.append([ngrams[i],1])
     #end for
-    print(ngrams)
-    print(ngram_reps)
     return [ngrams[posMostFrequent]]
 #end def
 
